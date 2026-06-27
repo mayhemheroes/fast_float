@@ -1,0 +1,7 @@
+project: fast_float
+target: from_chars
+testsuite:
+  - file:///mayhem/mayhem/testsuite
+cmds:
+  - cmd: /mayhem/from_chars
+    libfuzzer: true
